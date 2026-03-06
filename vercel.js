@@ -1,8 +1,8 @@
-{
-    "rewrites" [
-      {
-        "source": "/(.*)",
-        "destination": "/index.html"
-      }
-    ]
-  }
+export default {
+  rewrites: [
+    {
+      source: '/(.*)',
+      destination: '/view/index.html'
+    }
+  ]
+}
