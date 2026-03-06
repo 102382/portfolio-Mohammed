@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Mohammed</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href = "typewriter/typewriter.css" rel = "stylesheet">
+    <script src = "typewriter/typewriter.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Mohammed</h1>
+        </div>
+        <nav class="nav">
+            <a href="#about">About me</a>
+            <a href="#techniekenSection">Technieken</a>
+            <a href="#projectenSection">Projecten</a>
+            <a href="#ContactSection">Contact</a>
+        </nav>
+        <button class="hamburger" id="hamburger" onclick="menubar()"><i class="fa-solid fa-bars"></i></button>
+    </header>
+
+    <main id="main">
+        <section class="heroSection">
+            <div class="hero">
+                <div class="info">
+                    <h2>Hello<span class="dot">.</span></h2>
+                    <h3><span id="span1">I am</span> <span id="typewriter"></span></h3>
+                    <div class="infoBtn">
+                        <button onclick="contact()" class="primary">Got a project?</button>
+                        <button onclick="startDownload()" class="secondary">Download CV</button>
+                        <a hidden id="link" href="../Others/Mohammed_Alrabeei.pdf"></a>
+                    </div>
+                </div>
+                <div class="foto" data-aos="flip-left" data-aos-delay="500" data-aos-duration="500"></div>
+            </div>
+        </section>
+        <section class="Aboutme" id="about">
+            <div class="me animationclass">
+                <h2>About me</h2>
+                <p>My name is Mohammed, born in 2005, and I am currently studying Software Development in the Netherlands. I specialize in building modern, responsive websites using HTML, CSS, JavaScript, and PHP.
+
+                    Programming is not just a skill for me, it's something I genuinely enjoy. I love solving problems, bringing ideas to life, and continuously improving my technical abilities. As I grow as a developer, I aim to create efficient, user-friendly digital solutions and expand my expertise in web development and beyond.</p>
+            </div>
+            <div class="Developer animationclass">
+                <h2>Software Developer</h2>
+                <p>As a software developer, I focus on writing clean, efficient code and building scalable web applications. I enjoy turning complex ideas into functional digital solutions and learning new technologies to stay up-to-date in the fast-evolving tech world. From front-end design to back-end logic, I aim to create seamless user experiences</p>
+            </div>
+        </section>
+        <section class="techniekenSection" id="techniekenSection">
+            <div class="technieken-container">
+                <h2>Skills</h2>
+                <div id="technieken-grid" class="technieken-grid">
+                    <!--Via fetch komen de technieken hier te staan-->
+                </div>
+            </div>
+        </section>
+        <section id="projectenSection">
+            <div class="projecten-container">
+                <h2>Projects</h2>
+                <div class="projecten-grid">
+                    <!--Via fetch komen de projecten hier te staan-->
+                </div>
+                <br> <br> <br>
+                <h2>Coming soon</h2>
+                <div class="projecten-grid" id="coming">
+                    <!--Via fetch komen de projecten hier te staan-->
+                </div>
+            </div>
+        </section>
+
+        <section id="ContactSection">
+            <div class="Contact-container">
+                <div class="contact">
+                    <h2>Contact me</h2>
+        
+                    <p class="contact-intro">
+                        Interested in working together or have a question?  
+                        Feel free to reach out via the details below.
+                    </p>
+        
+                    <div class="contact-line"></div>
+        
+                    <div class="contact-details">
+                        <div>
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:mohammedalrabeei9@gmail.com">mohammedalrabeei9@gmail.com</a>
+                        </div>
+        
+                        <div>
+                            <span class="contact-label">Phone</span>
+                            <span>+31 6 26556770</span>
+                        </div>
+        
+                        <div>
+                            <span class="contact-label">LinkedIn</span>
+                            <a href="https://www.linkedin.com/in/mohammed-al-rabeei-b568223a5/">linkedin.com/in/mohammed</a>
+                        </div>
+        
+                    </div>
+                </div>
+                <div id="contactFoto" class="foto"></div>
+            </div>
+        </section>        
+    </main>
+
+    <script defer src="../javaScript/fetch.js"></script>
+    <script defer src="../javaScript/script.js"></script>
+    <script defer src="../javaScript/animation.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        Typewriters.init()
+    </script>
+</body>
+</html>

@@ -1,0 +1,70 @@
+{
+    "skills": [
+      {
+        "id": "HTML",
+        "name": "HTML",
+        "description": "HTML is the standard markup language used to structure content on the web, such as text, images, links, and forms.",
+        "image": "../imags/HTML.png"
+      },
+      {
+        "id": "SCSS",
+        "name": "SCSS",
+        "description": "SCSS is a CSS preprocessor that adds features like variables, nesting, mixins, and functions to write cleaner and more maintainable styles.",
+        "image": "../imags/css_icon.png"
+      },
+      {
+        "id": "JavaScript",
+        "name": "JavaScript",
+        "description": "JavaScript is a programming language used to create interactive and dynamic behavior on websites, such as animations and form validation.",
+        "image": "../imags/Javascript.webp"
+      },
+      {
+        "id": "PHP",
+        "name": "PHP",
+        "description": "PHP is a server-side scripting language mainly used for building dynamic websites and handling data from databases.",
+        "image": "../imags/php.png"
+      },
+      {
+        "id": "Node.js",
+        "name": "Node.js",
+        "description": "Node.js is a runtime environment that allows JavaScript to be executed on the server side for building scalable applications.",
+        "image": "../imags/nodejs.png"
+      },
+      {
+        "id": "Express.js",
+        "name": "Express.js",
+        "description": "Express.js is a minimal and flexible Node.js framework used to build web applications and APIs efficiently.",
+        "image": "../imags/express.png"
+      },
+      {
+        "id": "Bootstrap",
+        "name": "Bootstrap",
+        "description": "Bootstrap is a front-end framework that helps create responsive and modern websites using prebuilt components and styles.",
+        "image": "../imags/bootstrap.png"
+      },
+      {
+        "id": "phpMyAdmin",
+        "name": "phpMyAdmin",
+        "description": "phpMyAdmin is a web-based tool used to manage MySQL databases, including creating, editing, and deleting data.",
+        "image": "../imags/phpmyadmin.png"
+      },
+      {
+        "id": "GitHub",
+        "name": "GitHub",
+        "description": "GitHub is a platform for version control and collaboration, allowing developers to manage code and work together on projects.",
+        "image": "../imags/github.png"
+      },
+      {
+        "id": "Figma-Canva",
+        "name": "Figma / Canva",
+        "description": "Figma and Canva are design tools used for creating UI designs, prototypes, and visual content for web and media projects.",
+        "image": "../imags/figma.png"
+      },
+      {
+        "id": "React",
+        "name": "React",
+        "description": "React is een JavaScript library voor het bouwen van snelle en interactieve gebruikersinterfaces, vooral voor single-page applications, door gebruik te maken van herbruikbare componenten.",
+        "image": "../imags/react.png"
+      }
+    ]
+}

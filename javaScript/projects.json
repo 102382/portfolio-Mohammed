@@ -1,0 +1,25 @@
+{
+    "projects": [
+        {
+            "id": "1",
+            "name": "Wealth Creators",
+            "description": "A school project that simulates a shop where users can purchase items and place bids on high-value products.",
+            "image": "../imags/wealthCreators.png",
+            "link": "https://102382.stu.sd-lab.nl/Leerjaar1/Website/HTML/index.html"
+        },
+        {
+            "id": "2",
+            "name": "TastyBites",
+            "description": "A personal project that allows users to create and share recipes.",
+            "image": "../imags/TastyBites.png",
+            "link": "https://102382.stu.sd-lab.nl/Leerjaar2/Beroeps/TastyBites/PHP/Home.php"
+        },
+        {
+            "id": "3",
+            "name": "Bubble",
+            "description": "A school project that simulates the Spotify application, allowing users to listen to music, watch short videos, read news articles, and create their own playlists.",
+            "image": "../imags/Bubble.png",
+            "link": "https://101734.stu.sd-lab.nl/project_2/index.php"
+        }
+    ]
+}
